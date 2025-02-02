@@ -1,0 +1,115 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+}
+
+.header {
+    background-color: white;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+    font-size: 20pt;
+}
+
+main {
+    background-color: rgb(238, 238, 238);
+    padding: 30px;
+}
+
+.register-form__content{
+    margin: 0 25%;
+}
+
+.register-form__heading {
+    margin-bottom: 40px;
+}
+
+.form {
+    text-align: left;
+}
+
+.form__group-title,
+.form__group {
+    margin-bottom: 15px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    background: red;
+    color: white;
+}
+
+.form__label--text {
+    margin: auto 10px;
+    color: red;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 30px;
+}
+
+.form__input--checkbox label {
+    margin-right: 40px;
+}
+
+.form__input--checkbox input {
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #717171;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+.form__input--checkbox input:checked {
+    background-color: #717171;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 25%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: orange;
+    cursor: pointer;
+}
+
+.form__button-return {
+    padding: 10px;
+    width: 25%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: lightgray;
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+}
+
+.header {
+    background-color: white;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+    font-size: 20pt;
+}
+
+main {
+    padding: 30px;
+}
+
+.products {
+    display: flex;
+}
+
+.item_search {
+    width: 15%;
+    margin: 10px;
+}
+
+h2{ 
+    margin: 0;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form__input--search input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 24px;
+}
+
+.form__button--search {
+    margin: 20px auto;
+}
+
+.form__button-submit {
+    width: 100%;
+    padding: 5px;
+    background-color: orange;
+    border: 1px solid lightgray;
+}
+
+.item__search--price {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: lightgray;
+}
+
+.products__item--register {
+    width: 85%;
+    margin: 10px;
+}
+
+.button__item__register {
+    text-align: right;
+    margin: 10px auto;
+}
+
+.item__register {
+    padding: 10px;
+    background-color: orange;
+    border: 1px solid lightgray;
+    font-size: 10pt;
+}
+
+.products__item {
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.item {
+    margin-right: 5%;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 80px;
+}
+
+.item:nth-child(3n) {
+    margin-right: 0;
+}
