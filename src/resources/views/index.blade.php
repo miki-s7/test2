@@ -46,12 +46,15 @@
                     </a>
                 </div>
                 <div class="products__item">
-                    <div class="item">1</div>
-                    <div class="item">2</div>
-                    <div class="item">3</div>
-                    <div class="item">4</div>
-                    <div class="item">5</div>
-                    <div class="item">6</div>
+                    @foreach ($products as $product)
+                        <div class="item">
+                            <div class="item_image">
+                                {{$product->image}}
+                            </div>
+                            {{$product->name}}
+                            {{$product->price}}
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </div>

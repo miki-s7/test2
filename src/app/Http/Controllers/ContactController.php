@@ -18,16 +18,5 @@ class ContactController extends Controller
     return view('register');
   }
 
-  public function error(RegisterRequest $request)
-    {
-        $register = Products::all();
-        return view('register', ['products' => $register]);
-    }
-
-  //public function store(RegisterRequest $request)
-  //{
-  //  $register = $request->only(['name', 'price', 'photo', 'season', 'content']);
-  //  Products::create($register);
-  //}
 
 }
